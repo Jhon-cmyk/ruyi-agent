@@ -1,0 +1,23 @@
+build/
+.gradle/
+*.jar
+.idea/
+*.iml
+out/
+# 敏感配置与本地运行时生成的数据
+.ruyicode/config.yaml
+.ruyicode/sessions/
+.ruyicode/crash.log
+.ruyicode/worktrees/
+.ruyicode/worktree_session.json
+.ruyicode/settings.local.json
+CLAUDE.md
+
+# 根目录配置含明文 API key，程序只读 .ruyicode/config.yaml
+/config.yaml
+
+# Playwright MCP 运行日志
+.playwright-mcp/
+
+# 依赖元数据，不该出现在顶层
+META-INF/

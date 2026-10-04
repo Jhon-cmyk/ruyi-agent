@@ -1,0 +1,1 @@
+- [ruyicode-java-overview](ruyicode-java-overview.md) — High-level architecture overview of the ruyicode-java project (a Java terminal AI coding assistant)
